@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fueside</title>
+    <link href="https://fonts.googleapis.com/css?family=Varela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/src/style.css">
+</head>
+
+<body>
+    <section>
+        <nav class="navbar fixed-top d-flex justify-content-center">
+            <img src="/img/fueside grey.png" class="logo">
+
+            <!-- <div id="clock"></div> -->
+        </nav>
+    </section>
+
+    <section>
+        <div class="welcome justify-content-center">
+            <h1 class="fueside">Welcome to Fueside.com</h1>
+        </div>
+    </section>
+
+    <hr class="h">
+
+    <section class="middle">
+        <hr class="h r">
+        <div class="row justify-content-center">
+            <div class="col-md-7 col-sm-push-3  no-gutters">
+                <div class="jumbotron head">
+                    <h1 class="new">Hello, world! Whats new from Us?</h1>
+                    <p>The information you should known and share with your friend!</p>
+                    <hr class="my-4">
+                    <p>looking for your interested ? checkout here!</p>
+                    <button class="btn btn-outline-info" href="#">Learn more</button>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-pull-7 no-gutters">
+                <div class="border nav justify-content-end">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting
+                    industry. Lorem Ipsum has been the indust</div>
+            </div>
+        </div>
+        <hr class="h r">
+    </section>
+    <hr class="h">
+    <section>
+        <div class="grid-container">
+            <div class="grid-item item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia
+            </div>
+            <div class="grid-item item-2">grg</div>
+            <div class="grid-item item-3">hherhe</div>
+    </section>
+
+
+
+
+    <script type="text/javascript">
+        // function showTime() {
+        //     var a_p = "";
+        //     var today = new Date();
+        //     var curr_hour = today.getHours();
+        //     var curr_minute = today.getMinutes();
+        //     var curr_second = today.getSeconds();
+        //     if (curr_hour < 12) {
+        //         a_p = "AM";
+        //     } else {
+        //         a_p = "PM";
+        //     }
+        //     if (curr_hour == 0) {
+        //         curr_hour = 12;
+        //     }
+        //     if (curr_hour > 12) {
+        //         curr_hour = curr_hour - 12;
+        //     }
+        //     curr_hour = checkTime(curr_hour);
+        //     curr_minute = checkTime(curr_minute);
+        //     curr_second = checkTime(curr_second);
+        //     document.getElementById('clock').innerHTML = curr_hour + ":" + curr_minute + ":" + curr_second + " " + a_p;
+        // }
+
+        function checkTime(i) {
+            if (i < 10) {
+                i = "0" + i;
+            }
+            return i;
+        }
+        setInterval(showTime, 500);
+    </script>
+</body>
+
+</html>

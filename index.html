@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fueside</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Jomolhari|Montserrat|Raleway|Roboto+Condensed|ZCOOL+XiaoWei&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/src/index.css">
+</head>
+
+<body>
+    <!-- Image and text -->
+    <section>
+        <nav class="navbar">
+            <a class="navbar-brand" href="#">
+                <img src="/img/fueside grey.png" class="logo d-inline-block align-top" alt="">
+            </a>
+            <span class="menu d-flex justify-content-end" onclick="openNav()">&#9776;
+            </span>
+        </nav>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrapper">
+            <div class="big-new">
+                <h2>Lorem ipsum dolor sit.</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat animi, velit, voluptates est nam harum
+                aperiam nihil quae officiis, voluptatem vitae sunt earum distinctio. Veritatis, minus rem cupiditate
+                quae voluptate ad doloremque delectus ducimus exercitationem perspiciatis. Velit, fugiat. Cupiditate
+                nesciunt officiis cumque consequuntur at atque fuga maxime, amet unde sapiente voluptas, expedita
+                placeat voluptatum neque soluta. Velit mollitia id laboriosam. Quis quasi dolore repudiandae beatae iure
+                sapiente explicabo voluptas illum placeat. Natus earum aperiam dicta. Velit amet, blanditiis dolor
+                architecto cumque est ea autem id numquam delectus voluptate officia itaque accusamus, beatae iusto
+                ducimus omnis repudiandae vel ad at eos!
+            </div>
+            <div class="small-new">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="small-new2">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>
